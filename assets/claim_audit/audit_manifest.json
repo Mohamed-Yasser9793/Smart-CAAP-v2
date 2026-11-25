@@ -1,0 +1,22 @@
+{
+  "split_a_sha256": "bfc6464dd86db421e16f892696d6af27f82c139152c4c843f3a1d42a944b4801",
+  "split_b_sha256": "eef7f9a849304cf84db9c3c6a2fcac0ad579512aafaf0df6fc06c262aa648dfc",
+  "tau_contrast_val": 0.23529412597417831,
+  "tau_noise_val": 0.0033416557125747204,
+  "symmetric_temperatures_val": {
+    "Raw_Unfiltered": 0.965753216572729,
+    "CLAHE_Traditional": 1.0558320229331408,
+    "Blind_Stretch_E5": 1.2404809666888597,
+    "Smart_CAAP_v2": 0.9460278281744711
+  },
+  "route_telemetry_full_test": {
+    "Path_1_Clean_Bypass": 922,
+    "Path_2_ROI_Stretch": 675,
+    "Path_3_Bilateral_Stretch": 494
+  },
+  "n_boot": 1000,
+  "seed": 42,
+  "stress_seeds": [
+    42
+  ]
+}

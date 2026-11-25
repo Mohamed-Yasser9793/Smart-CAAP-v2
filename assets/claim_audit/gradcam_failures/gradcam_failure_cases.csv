@@ -1,0 +1,11 @@
+error_type,study_id,patient_id,label,study_prob,view_prob,route,c_span,hf_energy,hardware_flag,figure_file
+False Negative,patient07139_study1_positive,patient07139,1,0.0005,0.0002,Path 1: Clean bypass,0.2471,0.000133,False,/kaggle/working/outputs/claim_audit/gradcam_failures/FN_01_patient07139_study1_positive.png
+False Negative,patient11278_study1_positive,patient11278,1,0.0052,0.0052,Path 1: Clean bypass,0.3176,0.000971,False,/kaggle/working/outputs/claim_audit/gradcam_failures/FN_02_patient11278_study1_positive.png
+False Negative,patient06879_study1_positive,patient06879,1,0.0062,0.0062,Path 1: Clean bypass,0.4235,0.001414,False,/kaggle/working/outputs/claim_audit/gradcam_failures/FN_03_patient06879_study1_positive.png
+False Negative,patient06449_study1_positive,patient06449,1,0.0218,0.0046,Path 1: Clean bypass,0.4863,0.000587,False,/kaggle/working/outputs/claim_audit/gradcam_failures/FN_04_patient06449_study1_positive.png
+False Negative,patient06522_study1_positive,patient06522,1,0.0273,0.0096,Path 1: Clean bypass,0.251,0.002943,False,/kaggle/working/outputs/claim_audit/gradcam_failures/FN_05_patient06522_study1_positive.png
+False Positive,patient08518_study1_negative,patient08518,0,0.9934,0.9973,Path 3: Bilateral denoise + stretch,0.2627,0.006806,True,/kaggle/working/outputs/claim_audit/gradcam_failures/FP_06_patient08518_study1_negative.png
+False Positive,patient03814_study1_negative,patient03814,0,0.9692,0.986,Path 2: ROI-anchored soft stretch,0.2235,0.000192,True,/kaggle/working/outputs/claim_audit/gradcam_failures/FP_07_patient03814_study1_negative.png
+False Positive,patient00166_study2_negative,patient00166,0,0.9569,0.9825,Path 2: ROI-anchored soft stretch,0.149,0.000147,True,/kaggle/working/outputs/claim_audit/gradcam_failures/FP_08_patient00166_study2_negative.png
+False Positive,patient08333_study1_negative,patient08333,0,0.9539,0.9819,Path 1: Clean bypass,0.3098,0.000354,True,/kaggle/working/outputs/claim_audit/gradcam_failures/FP_09_patient08333_study1_negative.png
+False Positive,patient11355_study1_negative,patient11355,0,0.9343,0.9772,Path 2: ROI-anchored soft stretch,0.2196,0.001473,True,/kaggle/working/outputs/claim_audit/gradcam_failures/FP_10_patient11355_study1_negative.png

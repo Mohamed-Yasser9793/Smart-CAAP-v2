@@ -1,0 +1,59 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local datasets (Stanford MURA v1.1 must be downloaded separately under its data-use agreement)
+data/
+datasets/
+MURA-v1.1/
+*.csv
+!assets/claim_audit/*.csv
+!assets/claim_audit/gradcam_failures/*.csv
+
+# Generated experiment outputs & figures (keep published snapshot in assets/claim_audit/)
+outputs/*
+!outputs/.gitkeep
+
+# Temporary scratch / dump artifacts
+_extract_metrics.py
+_inspect_nb.py
+_test_infer.py
+_metrics_out.txt
+_nb_dump.txt
+*.log
+*.tmp
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Model Checkpoints (Git LFS Recommendation)
+# ---------------------------------------------------------------------------
+# `weights/best_resnet50_wrist.pth` (~94.4 MB) approaches GitHub's 100 MB
+# file size limit. Track `.pth` checkpoints with Git LFS instead of raw Git:
+#
+#   git lfs install
+#   git lfs track "weights/*.pth"
+#   git add .gitattributes weights/best_resnet50_wrist.pth
+#
+# If you prefer to host weights externally (e.g., Zenodo / Hugging Face Hub)
+# and exclude them from the Git tree, uncomment the line below:
+# weights/*.pth
